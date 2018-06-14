@@ -1,0 +1,9 @@
+Id,profileType,profileId,userProfileDesc
+1001,MGMT,CEO,CEO
+1002,MGMT,DIR,Director
+1003,MGMT,MGR,Operations Manager
+1004,MGMT,EXE,Executive
+1005,MGMT,HRM,HR-Manager
+1006,MGMT,CON,Consultant
+1007,SUPR,SUP,Operation Supervisor
+1008,EMPL,EMP,Employee

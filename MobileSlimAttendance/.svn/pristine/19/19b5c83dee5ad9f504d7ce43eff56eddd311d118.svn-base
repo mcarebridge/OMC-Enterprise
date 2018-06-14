@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	overflow:auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+input,select,checkbox {
+	border:1px solid #d1c7ac;
+	color:#1D2122;
+	padding:2px;
+	margin-right:2px;
+	margin-bottom:2px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font: normal 11px Verdana,Helvetica, sans-serif; color: #555555;
+}
+
+span {
+	padding:2px 2px 2px 2px;
+}
+
+
+/************************************ Reset CSS Ends ****************************************************/
+
+#wrapper{ margin:auto; width: 99%; }
+
+#header{ border: 1px solid #e7e8ea; border-bottom: none; background: #f8f8f8; width: 100%;  text-align: right;}
+#header span{ width: 100px; display: inline-block; margin: 2px 0 5px; padding: 5px 5px; background: #2981c1; border: 1px solid #C2C5BE; font: normal 11px Verdana,Helvetica, sans-serif; color: #fff; text-align: center; align:center}
+#header a, #header a:hover, #header a:visited{display: inline-block; background: #2981c1; border: 0px solid #C2C5BE; font: normal 11px Verdana,Helvetica, sans-serif; color: #fff; text-align: center; text-decoration: none;}
+
+.logo{font-family: 'Nova Round', cursive; font-weight: 500; font-size: 42px; float: right;font: normal;text-decoration: none; padding: 10px 0px 0px 10px; color: #6699CC}
+.logo a.active,a.hover,a.visited{font: normal;text-decoration: none;color: #6699CC}
+
+#Nav{ height:34px; adding: 10px 10px 10px 15px; border-left:1px solid #e7e8ea; border-right:1px solid #e7e8ea; order-bottom:1px solid #C2C5BE;  background: url(../images/toplinkbg.jpg) repeat-x left center; width: 100%; }
+#Nav li{
+display: inline;
+margin: 0;
+}
+#Nav a,#Nav a:visited{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 5px; order: 0px solid #C2C5BE; font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #555555; text-align: center; text-decoration: none;}
+#Nav a:hover{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 5px; background:#AEC2DB; order: 0px solid #C2C5BE;  font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #2981c1; text-align: center; text-decoration: none;}
+#Nav a.active, #Nav a.active:hover, #Nav a.active:visited{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 10px; ackground:#AEC2DB; order: 1px solid #C2C5BE; font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #2981c1; text-transform:none; text-align: center; text-decoration: none;}
+	
+#contentWrapper{ float: left; clear: both; width: 100%; height:100%; border-left:1px solid #e7e8ea; border-right:1px solid #e7e8ea; border-bottom:0px solid #D7DFE8;}
+#contentWrapper .left{ float: left; clear: left; width: 98%; height: 100% margin: 5px 0 15px 15px; border: 0px solid red; }
+#contentWrapper .left .content{float: left; clear: both; width: 100%;  border: 1px solid #E1E0E6;  margin: 5px; background: #FFFFFF; }
+#contentWrapper .left .content h1{ display: block; float:left; font:bold 20px Arial, Helvetica, sans-serif, "Trebuchet MS"; COLOR: #288ac7; argin-left: 15px; border-bottom:0px solid #DFDEE4; width: 93%; padding: 10px  }
+
+#contentWrapper .right{ float: right; clear: right; width: 25.6%; margin: 15px; border: 0px solid red;}
+#contentWrapper .right .content{float: left; clear: both; width: 99%; border: 1px solid #e7e8ea; background: #f8f8f8;}
+#contentWrapper .right .content h1{ display: block; float:left; font: bold 12px 'Share', cursive; color: #6690C6; text-align: left; width: 99%; padding: 10px 10px 0; margin: 0 0 15px 0;}
+
+#contentWrapperIndex{ float: left; clear: both; width: 100%; height:100%; border-left:1px solid #e7e8ea; border-right:1px solid #e7e8ea; border-bottom:0px solid #D7DFE8;}
+#contentWrapperIndex .left{ float: left; clear: left; width: 71%; height: 100% margin: 5px 0 15px 15px; border: 0px solid red; }
+#contentWrapperIndex .left .content{float: left; clear: both; width: 100%; min-height: 530px; border: 1px solid #E1E0E6; overflow-y: auto; margin: 5px; background: #FFFFFF; }
+#contentWrapperIndex .left .content h1{ display: block; float:left; font:bold 20px Arial, Helvetica, sans-serif, "Trebuchet MS"; COLOR: #288ac7; argin-left: 15px; border-bottom:0px solid #DFDEE4; width: 93%; padding: 10px  }
+#contentWrapperIndex .left .content table td{align:center;}
+
+#contentWrapperIndex .right{ float: right; clear: right; width: 25.6%; margin: 15px; border: 0px solid red;}
+#contentWrapperIndex .right .content{float: left; clear: both; width: 99%; border: 1px solid #e7e8ea; background: #f8f8f8;}
+#contentWrapperIndex .right .content h1{ display: block; float:left; font: bold 12px 'Share', cursive; color: #6690C6; text-align: left; width: 99%; padding: 10px 10px 0; margin: 0 0 15px 0;}
+
+
+.about{ float: left; width: 98%; padding: 0px;  border:0px solid #ddd; argin: 0 90px;}
+.required_string{ float:right; font:9px Verdana, Arial, Helvetica, sans-serif; color:#555555; clear:both; margin: 0 51% 10px 0;}
+.required_string span{font: 10px Verdana, Arial, Helvetica, sans-serif; color: #dd0f13;}
+.about .error_main{ float: left; width: 35%; padding: 15px; background: #F2F2F2; border:1px dashed #ddd; margin: 0 0 10px 100px; }
+.about .error_main a, .about .error_main a:hover, .about.error_main a:visited{ text-decoration:none; display: inline-block; float: right; font: normal 10px Verdana; color: #71717; text-align:right; padding:5px; margin: -5px; }
+.about .error_main h3{ display: block; loat:left; font: bold 12px Verdana; color: red; margin: 5px 15px;}
+.about .error_main ul{ list-style-type: disc; display: block; float:left; font: normal 11px Verdana; color: red; margin: 5px 35px; tex-align: left; }
+.about .error_main ul li{font: normal 11px Verdana; color: red; text-align: left;}
+.about .error_main span{font: normal 10px Verdana; color:red;}
+
+.about table td{ padding: 3px; font: normal 11px Verdana,Helvetica,  Arial, sans-serif; color: #555555; vertical-align: none;text-align:left;}
+.about table td span{font: italic 11px Verdana; color:red;}
+.about table td input[type=text]{ width: 180px;text-align:right}
+.about table td input[type=password]{ width: 180px;text-align:right}
+.about table td select{font: normal 10px Verdana; color: #333; padding: 2px;  }
+.about table td .drop{font: normal 10px Verdana; color: #333; padding: 2px; width:180px;}
+.about table td select[option=elected]{font: italic 10px Verdana; color: #333; width: 50px; padding: 2px;  }
+.about table td img{align:center}
+.select1{ background:url(../images/buttonbg.jpg) no-repeat left top; width: 107px; height: 27px; border: medium none; font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #fff}
+.select2{ background:url(../images/buttonbg.jpg) no-repeat left top; width: 107px; height: 27px; border: medium none; font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #fff}
+.select3{ background:url(../images/buttonbg.jpg) repeat-x; width: 127px; height: 27px; border: medium none; font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #fff}
+span.error{display:none; font: italic 11px Verdana; color:#BC3D3D; margin: 5px 5px 0;}
+
+/*************** tables designs   *****************/
+.aout table { border: 2px solid #BFD6E2; margin: 0 5px 5px 5px; background: #E4E5E5;}
+.aout table tr.altrow{ background:#FAFAFA; }
+.aout table th{ padding: 5px; font: bold 13px Helvetica, sans-serif; color: #4B4B4A; vertical-align: middle; background: #DCE9F0;border-right: 1px solid #CDCECE; border-left: 1px solid #CDCECE;}
+.aout table td{ padding: 8px; font: normal 11px Verdana,Helvetica, sans-serif; color: #555555; border-right: 1px solid #CDCECE; border-left: 1px solid #CDCECE; }
+.aout .name{border-right: 2px; font: bold 12px Helvetica, sans-serif; solid #E6EFF5; border-left: 0px solid #E6EFF5; color:#288ac7; }
+.aout .format{border-right: 2px solid #E6EFF5; border-left: 2px solid #E1EBF2; text-lign:right; }
+
+.controlbox table { border: 2px solid #BFD6E2; margin: 0 5px 5px 5px; background: none;}
+.controlbox table tr.altrow{ background:#FAFAFA; }
+.controlbox table th{ padding: 5px; font: bold 13px Helvetica, sans-serif; color: #4B4B4A; vertical-align: middle; background: #DCE9F0;}
+.controlbox table td{ padding: 8px; font: normal 11px Verdana,Helvetica, sans-serif; color: #555555;}
+.controlbox .name{border-right: 2px; font: bold 12px Helvetica, sans-serif; solid #E6EFF5; border-left: 0px solid #E6EFF5; color:#288ac7; }
+.controlbox .format{border-right: 2px solid #E6EFF5; border-left: 2px solid #E1EBF2; text-lign:right; }
+
+
+
+#contentWrapper .right .content div table{ margin: 10px;}
+#contentWrapper .right .content table td{ padding: 2px; font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #555555; text-align:right; vertical-align: none;}
+#contentWrapper .right .content table td span{font: italic 10px Verdana; color:red;}
+#contentWrapper .right .content table td input[type=text]{ width: 180px;}
+#contentWrapper .right .content table td input[type=submit]{ background:url(images/buttonbg.jpg) no-repeat left top; width: 107px; height: 27px; border: medium none; font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #fff}
+/*************** tables designs   *****************/
+
+#footer{ float: left; clear: both; border: 0px solid #E1E0E6; width: 100%; height: 35px;  text-align: right; margin:0px;}
+#footer .copyright{ float: left; border: 1px solid #e7e8ea; background: #f8f8f8; width: 100%; height: 33px;  text-align: right;}
+#footer .tools{ font: bold 12px arial; color: #fff; float: right; background: #99CCFF; border-left: 1px solid #E1E0E6; border: 1px solid #e7e8ea; border-top:0; border-bottom:0; width: 10%; height: 13px; padding: 10px;  text-align: center;  }
+
+.slide {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  width:80%;
+  	
+}
+
+.slide .inner {
+  position: absolute;
+  left: 0px;
+  height: 430px;
+  width: 100%;
+}
+
+
+.secondarymenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.submenustyle{
+display: none;
+filter:alpha(opacity=0);
+-moz-opacity:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+
+ height:34px; adding: 10px 10px 10px 15px; border-left:1px solid #e7e8ea; border-right:1px solid #e7e8ea; order-bottom:1px solid #C2C5BE;  background: url(../images/toplinkbg.jpg) repeat-x left center; width: 100%; 
+}
+
+* html .submenustyle{ /*IE only width definition*/
+width: 100%;
+}
+
+.submenustyle a:hover{
+background-color: #ebffff;
+}
+
+form table{
+	float:left;
+	}
+
+.submenustyle a,.submenustyle a:visited{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 10px; order: 0px solid #C2C5BE; font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #555555; text-align: center; text-decoration: none;}
+.submenustyle a:hover{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 10px; background:#AEC2DB; order: 0px solid #C2C5BE;  font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #2981c1; text-align: center; text-decoration: none;}
+.submenustyle a.active, .submenustyle a.active:hover, .submenustyle a.active:visited{display: inline-block; margin: 2px 2px 2px 2px; padding: 5px 10px; ackground:#AEC2DB; order: 1px solid #C2C5BE; font: bold 12px Verdana, Arial, Helvetica, sans-serif; color: #2981c1; text-transform:none; text-align: center; text-decoration: none;}

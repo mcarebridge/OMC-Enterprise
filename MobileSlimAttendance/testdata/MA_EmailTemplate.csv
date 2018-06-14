@@ -1,0 +1,7 @@
+Id,templateType,emailSubject,emailMessage,active,createdBy,updatedBy
+1000,ACCOUNT_CREATION,Welcome to OneMasterControl,testdata/ACCOUNT_CREATTION_EMAIL.html,Y,ADMIN,ADMIN
+1010,FORGOT_PASSWORD,OneMasterControl :: Password recall,testdata/FORGOT_PASSWORD_EMAIL.html,Y,ADMIN,ADMIN
+1020,HELP_DESK,OneMasterControl Helpdesk,testdata/HELP_DESK_EMAIL.html,Y,ADMIN,ADMIN
+1030,RESOURCE_STRENGTH,OneMasterControl Resource Strength Alert,testData/OMC_Resource_Strength_Alert.html,Y,ADMIN,ADMIN
+1040,PUNCTUALITY,OneMasterControl Punctuality Alert,testdata/OMC_Punctuality_Alert.html,Y,ADMIN,ADMIN
+1050,FEMALE_EMPLOYEE_SECURITY,OneMasterControl Female Employee Security Alert,testData/OMC_Female_Security_Alert.html,Y,ADMIN,ADMIN

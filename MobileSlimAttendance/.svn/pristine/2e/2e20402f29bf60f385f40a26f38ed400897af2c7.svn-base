@@ -1,0 +1,5 @@
+Id,companyName,emplyoeePopulation,natureOfCompanyRefId,templateRefId,plannedAssignments
+1000,Acme Co.,1500,1004,1001,Y
+1001,Texas Farm Bank,250,1001,1002,Y
+1002,Hi-Trans,4000,1002,1001,N
+1003,Swiss Tel,5000,1005,1003,Y

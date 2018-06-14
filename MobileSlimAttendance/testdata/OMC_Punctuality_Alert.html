@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+	<meta name='Keywords' content=''>
+		<meta name='Description' content=''>
+			<title>Welcome to OneMasterControl</title>
+
+			<style type='text/css'>
+.mailBody {
+	float: left;
+	font-family: 'Arial', sans-serif;
+	padding: 10px 10px 10px 10px;
+}
+</style>
+			
+</head>
+<body>
+	<div style="align: 'center'">
+
+		<table
+			style="width: 65%; border: 1px solid #E1E0E6; padding: 0px 0px 0px 0px"
+			align="center">
+			<tr>
+				<td><img height="40" width="100"
+					style="float: left;; padding: 0px 0px 0px 0px" src="$companyLogo$"
+					alt="$CompanyName$" /></td>
+				<td><img height="32"
+					style="float: right; padding: 0px 0px 0px 0px"
+					src="http://$server$/humancapital/images/omcLogo.png"
+					alt="OneMasterControl" /></td>
+			</tr>
+
+			<tr>
+				<!--  
+				<td colspan="2">
+					<div class='mailBody'>Dear $accountName$:</div>
+				</td>
+			    -->
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div class='mailBody'>
+						<table>
+							<tr>
+								<td colspan='2'
+									style="text-align: center; text-decoration: underline;">OneMasterControl
+									manager Alert</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<div style="text-align: center;">$DateTime$</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Alert Type:</td>
+								<td>PUNCTUALITY</td>
+							</tr>
+							<tr>
+								<td>Location:</td>
+								<td>$location$</td>
+							</tr>
+							<tr>
+								<td>Shift:</td>
+								<td>$shift$</td>
+							</tr>
+							<tr>
+								<td>Shift Time:</td>
+								<td>$shiftTime$</td>
+							</tr>
+							<tr>
+								<td>Shift Supervisor:</td>
+								<td>$shiftSupervisor$</td>
+							</tr>
+							<tr>
+								<td>Shift manager:</td>
+								<td>$shiftManager$</td>
+							</tr>
+							<tr>
+								<td>Late In (Max):</td>
+								<td>$minExpectedRes$</td>
+							</tr>
+							<tr>
+								<td>Late In (Actual):</td>
+								<td>$actualResources$</td>
+							</tr>
+							<tr style="height: 20px">
+							</tr>
+							<tr>
+								<td colspan="2">
+									<div id="shiftDashboard" style="">
+										<table
+											style="margin: 0px; text-align: center; border-collapse: collapse; border: 1px solid;">
+											<tr>
+												<th style="width: 11%; border: 1px solid;">Shift</th>
+												<th style="width: 11%; border: 1px solid;">Early In</th>
+												<th style="width: 11%; border: 1px solid;">Right In</th>
+												<th style="width: 11%; border: 1px solid;">Late In</th>
+												<th style="width: 11%; border: 1px solid;">Total In</th>
+											</tr>
+											<tr style="border-bottom: 1px solid #CDCECE;">
+												<td style="width: 11%; border: 1px solid;">$shift$</td>
+												<td style="width: 11%; border: 1px solid;">$EarlyIN$</td>
+												<td style="width: 11%; border: 1px solid;">$RightIN$</td>
+												<td style="width: 11%; border: 1px solid;">$LateIN$</td>
+												<td style="width: 11%; border: 1px solid;">$totalIN$</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><div class='mailBody'>
+						<p>
+							Thanks you,
+							<p>
+								Helpdesk
+								<p>OneMasterControl
+					</div></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

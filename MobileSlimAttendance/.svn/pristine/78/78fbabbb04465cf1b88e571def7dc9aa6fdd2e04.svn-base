@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+	<datastore-index kind="MA_Holiday" ancestor="false"
+		source="manual">
+		<property name="countryCode" direction="asc" />
+		<property name="holidayDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Employee" ancestor="false">
+		<property name="companyRef" direction="asc" />
+		<property name="companyEmpId" direction="asc" />
+		<property name="active" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Employee" ancestor="false"
+		source="manual">
+		<property name="active" direction="asc" />
+		<property name="companyRef" direction="asc" />
+		<property name="companyEmpId" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Employee" ancestor="false"
+		source="manual">
+		<property name="companyRef" direction="asc" />
+		<property name="companyEmpId" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Assignment" ancestor="false">
+		<property name="employeeRef" direction="asc" />
+		<property name="status" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Assignment" ancestor="false"
+		source="auto">
+		<property name="employeeRef" direction="asc" />
+		<property name="endDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Assignment" ancestor="false"
+		source="auto">
+		<property name="employeeRef" direction="asc" />
+		<property name="startDate" direction="asc" />
+		<property name="endDate" direction="asc" />
+		<property name="shiftRef " direction="asc" />
+		<property name="status  " direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Timesheet" ancestor="false"
+		source="auto">
+		<property name="assignmentRef" direction="asc" />
+		<property name="createDay" direction="asc" />
+		<property name="createMonth" direction="asc" />
+		<property name="createYear" direction="asc" />
+		<property name="marker" direction="asc" />
+		<property name="createdDate" direction="asc" />
+		<property name="updatedDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Timesheet" ancestor="false"
+		source="auto">
+		<property name="assignmentRef" direction="asc" />
+		<property name="createDay" direction="asc" />
+		<property name="createMonth" direction="asc" />
+		<property name="createYear" direction="asc" />
+		<property name="marker" direction="asc" />
+		<property name="createdDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_Timesheet" ancestor="false"
+		source="manual">
+		<property name="assignmentRef" direction="asc" />
+		<property name="createDay" direction="asc" />
+		<property name="createMonth" direction="asc" />
+		<property name="createYear" direction="asc" />
+		<property name="createdDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_ConsolidatedTimesheet"
+		ancestor="false" source="manual">
+		<property name="__key__" direction="asc" />
+		<property name="approved" direction="asc" />
+		<property name="assignmentRef" direction="asc" />
+		<property name="marker" direction="asc" />
+		<property name="createdDate" direction="asc" />
+		<property name="updatedDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_ConsolidatedTimesheet"
+		ancestor="false" source="auto">
+		<property name="assignmentRef" direction="asc" />
+		<property name="createdDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_ConsolidatedTimesheet"
+		ancestor="false" source="auto">
+		<property name="approved" direction="asc" />
+		<property name="assignmentRef" direction="asc" />
+		<property name="createdDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_ConsolidatedTimesheet"
+		ancestor="false" source="auto">
+		<property name="assignmentRef" direction="asc" />
+		<property name="marker" direction="asc" />
+		<property name="createdDate" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="MA_ConsolidatedTimesheet"
+		ancestor="false">
+		<property name="createDay" direction="asc" />
+		<property name="createMonth" direction="asc" />
+		<property name="outTimeResult" direction="asc" />
+		<property name="outDateTime" direction="asc" />
+	</datastore-index>
+</datastore-indexes>
+ 

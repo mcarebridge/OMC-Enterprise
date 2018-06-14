@@ -1,0 +1,6 @@
+Id,companyRefId,stateRefId,line1,line2,city,emailAddressId,pinCode,timeZone
+1000,1000,1001,xxxx,yyyy,Pune,pune@mail.com,411014,UTC+530
+1001,1000,1001,xxxx,yyyy,Mumbai,mumbai@mail.com,400001,UTC+530
+1002,1001,1002,xxxx,yyyy,Baroda,baroda@mail.com,360045,UTC+530
+1003,1001,1002,xxxx,yyyy,Ahemdabad,ahemdabad@mail.com,380004,UTC+530
+1004,1001,1002,xxxx,yyyy,Jamnagar,jamnagar@mail.com,340007,UTC+530

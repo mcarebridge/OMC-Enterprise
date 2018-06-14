@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backends>
+	<backend name="memdb">
+		<class>B1</class>
+		<instances>1</instances>
+	</backend>
+	<backend name="worker">
+		<options>
+			<fail-fast>true</fail-fast>
+		</options>
+	</backend>
+</backends>

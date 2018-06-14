@@ -1,0 +1,7 @@
+Id,addressRefId,companyRefId,locationName,active,timeZone
+1000,1001,1000,Nariman Point,Y,IST
+1001,1001,1000,Bandra,Y,IST
+1002,1001,1000,Khar,Y,IST
+1003,1001,1000,Dadar,Y,IST
+1004,1001,1000,Andheri,Y,IST
+1005,1001,1000,Kurala,Y,IST

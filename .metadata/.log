@@ -1,0 +1,1477 @@
+!SESSION 2013-01-23 15:32:52.192 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.google.gdt.eclipse.core 4 0 2013-01-23 15:39:12.650
+!MESSAGE Error while tracking project-level changes from a change in R/
+!STACK 1
+Java Model Exception: Java Model Status [Unbound classpath container: 'App Engine SDK [missing]' in project 'MobileSlimAttendance']
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2007)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.isResourceInAnOutputPath(ProjectChangeTimestampTracker.java:121)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.visitDelta(ProjectChangeTimestampTracker.java:162)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.visitDelta(ProjectChangeTimestampTracker.java:169)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.resourceChanged(ProjectChangeTimestampTracker.java:181)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1169)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1180)
+	at org.eclipse.team.svn.core.operation.remote.CheckoutAsOperation.doOpen(CheckoutAsOperation.java:148)
+	at org.eclipse.team.svn.core.operation.remote.CheckoutAsOperation$2.run(CheckoutAsOperation.java:133)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.remote.CheckoutAsOperation.runImpl(CheckoutAsOperation.java:131)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.team.svn.ui.utility.ScheduledOperationWrapper.run(ScheduledOperationWrapper.java:37)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 963 2013-01-23 15:39:12.651
+!MESSAGE Unbound classpath container: 'App Engine SDK [missing]' in project 'MobileSlimAttendance'
+
+!ENTRY com.google.gdt.eclipse.core 4 0 2013-01-23 15:39:12.881
+!MESSAGE Error while tracking project-level changes from a change in R/
+!STACK 1
+Java Model Exception: Java Model Status [Unbound classpath container: 'App Engine SDK [missing]' in project 'MobileSlimAttendance']
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2007)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.isResourceInAnOutputPath(ProjectChangeTimestampTracker.java:121)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.visitDelta(ProjectChangeTimestampTracker.java:162)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.visitDelta(ProjectChangeTimestampTracker.java:169)
+	at com.google.gdt.eclipse.core.projects.ProjectChangeTimestampTracker.resourceChanged(ProjectChangeTimestampTracker.java:181)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility$1.run(ProgressMonitorUtility.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 963 2013-01-23 15:39:12.881
+!MESSAGE Unbound classpath container: 'App Engine SDK [missing]' in project 'MobileSlimAttendance'
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2013-01-23 15:39:13.808
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.7.4
+
+!ENTRY com.google.gdt.eclipse.core 1 0 2013-01-23 15:39:15.537
+!MESSAGE Scheduled rebuild of project MobileSlimAttendance because of plugin update (current version: 3.1.3.v201212122042-rel-r42)
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2013-01-23 15:42:24.158
+!MESSAGE Unexpected error while validating MA_TemplateMeta.java
+!STACK 0
+java.lang.NullPointerException
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.validateCompilationUnit(JavaCompilationParticipant.java:77)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:251)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2013-01-24 08:57:00.767 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.google.gdt.eclipse.core 4 0 2013-01-24 08:57:17.288
+!MESSAGE The site.xml file downloaded from the update site does not contain any <feature> elements with an id of 'com.google.appengine.eclipse.sdkbundle.e42.feature'. Unable to determine if there are updates available.
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:19:32.952
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:19:32.952
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d611f7f5-7ace-f442-863b-16de1fc1c0b7'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d611f7f5-7ace-f442-863b-16de1fc1c0b7'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:19:49.973
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:19:49.973
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/762f5a71-1125-304b-aeb1-48d0c183b79d'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/762f5a71-1125-304b-aeb1-48d0c183b79d'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:20:08.975
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:20:08.975
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/63a3526e-b66a-a442-9d68-90cdd8ea1f91'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/63a3526e-b66a-a442-9d68-90cdd8ea1f91'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:20:35.315
+!MESSAGE SVN: '0x0040000c: Override and Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:20:35.315
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d09d678f-cf52-6f4e-ac82-ddc1a37dca04'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d09d678f-cf52-6f4e-ac82-ddc1a37dca04'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:22:14.405
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:22:14.405
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/63bd5946-7f4f-f74f-a2f3-7f6bfc8c4c34'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/63bd5946-7f4f-f74f-a2f3-7f6bfc8c4c34'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:24:05.426
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:24:05.426
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/c98c42c6-dd2f-244b-ad5d-08d6133d2e73'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/c98c42c6-dd2f-244b-ad5d-08d6133d2e73'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+!SESSION 2013-01-24 17:24:38.929 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:25:21.678
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-24 17:25:21.678
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/2f418d85-235e-2b4c-8662-d6b5dbe45205'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/2f418d85-235e-2b4c-8662-d6b5dbe45205'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-24 17:25:58.526
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_UsageMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:337)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jface.viewers.DecoratingLabelProvider.getImage(DecoratingLabelProvider.java:94)
+	at org.eclipse.team.ui.synchronize.AbstractSynchronizeLabelProvider.getDelegateImage(AbstractSynchronizeLabelProvider.java:95)
+	at org.eclipse.jdt.internal.ui.model.JavaSynchronizationLabelProvider.getDelegateImage(JavaSynchronizationLabelProvider.java:82)
+	at org.eclipse.team.ui.synchronize.AbstractSynchronizeLabelProvider.getImage(AbstractSynchronizeLabelProvider.java:49)
+	at org.eclipse.team.ui.mapping.SynchronizationLabelProvider.getImage(SynchronizationLabelProvider.java:115)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:197)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:105)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:98)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:60)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:184)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:167)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:184)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:167)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:118)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:152)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:953)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:113)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1033)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:485)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2748)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1923)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:721)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1930)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:721)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1930)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:721)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1898)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1855)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:561)
+	at org.eclipse.team.internal.ui.mapping.CommonViewerAdvisor$NavigableCommonViewer.internalRefresh(CommonViewerAdvisor.java:62)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1535)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1443)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1533)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:548)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:353)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:510)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1465)
+	at org.eclipse.team.svn.ui.mapping.SVNChangeSetContentProvider$2.run(SVNChangeSetContentProvider.java:737)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-01-24 17:25:58.528
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_UsageMeta.java' does not exist.
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2013-01-24 17:26:21.969
+!MESSAGE Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at com.google.gdt.eclipse.core.ProcessUtilities.launchProcessAndActivateOnError(ProcessUtilities.java:213)
+	at com.google.appengine.eclipse.core.orm.enhancement.EnhancerJob.runInWorkspace(EnhancerJob.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:81)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:30)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 4 more
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2013-01-24 17:27:04.157
+!MESSAGE Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at com.google.gdt.eclipse.core.ProcessUtilities.launchProcessAndActivateOnError(ProcessUtilities.java:213)
+	at com.google.appengine.eclipse.core.orm.enhancement.EnhancerJob.runInWorkspace(EnhancerJob.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:81)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:30)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 4 more
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2013-01-24 17:28:22.127
+!MESSAGE Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at com.google.gdt.eclipse.core.ProcessUtilities.launchProcessAndActivateOnError(ProcessUtilities.java:213)
+	at com.google.appengine.eclipse.core.orm.enhancement.EnhancerJob.runInWorkspace(EnhancerJob.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:81)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:30)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 4 more
+!SESSION 2013-01-25 09:41:04.726 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 09:59:31.630
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 09:59:31.630
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/c6af16dc-fb7f-6445-897f-979428f1ea1c'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/c6af16dc-fb7f-6445-897f-979428f1ea1c'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-01-25 10:00:35.167
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:229)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:210)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:276)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:494)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:545)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:366)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:313)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:82)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.ole.win32.OleFrame.getMsgProc(OleFrame.java:279)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3129)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.google.gdt.eclipse.login.GoogleLogin.logIn(GoogleLogin.java:344)
+	at com.google.gdt.eclipse.login.GoogleLogin.logIn(GoogleLogin.java:312)
+	at com.google.gdt.eclipse.login.ui.LoginTrimContribution$1.mouseUp(LoginTrimContribution.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:220)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 58 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2013-01-25 10:00:35.171
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:229)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:210)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:276)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:494)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:545)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:366)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:313)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:82)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.browser.WebBrowser.sendKeyEvent(WebBrowser.java:700)
+	at org.eclipse.swt.browser.IE.handleDOMEvent(IE.java:1689)
+	at org.eclipse.swt.browser.IE$5.handleEvent(IE.java:331)
+	at org.eclipse.swt.ole.win32.OleEventTable.sendEvent(OleEventTable.java:55)
+	at org.eclipse.swt.ole.win32.OleEventSink.notifyListener(OleEventSink.java:145)
+	at org.eclipse.swt.ole.win32.OleEventSink.Invoke(OleEventSink.java:120)
+	at org.eclipse.swt.ole.win32.OleEventSink.access$1(OleEventSink.java:97)
+	at org.eclipse.swt.ole.win32.OleEventSink$1.method6(OleEventSink.java:71)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.google.gdt.eclipse.login.GoogleLogin.logIn(GoogleLogin.java:344)
+	at com.google.gdt.eclipse.login.GoogleLogin.logIn(GoogleLogin.java:312)
+	at com.google.gdt.eclipse.login.ui.LoginTrimContribution$1.mouseUp(LoginTrimContribution.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:220)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 59 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:02.562
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:02.562
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/b5c2a0c4-ea98-0347-9a61-d35d5504fc47'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/b5c2a0c4-ea98-0347-9a61-d35d5504fc47'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:20.111
+!MESSAGE SVN: '0x00000114: Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:20.111
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d6d18fe2-ab44-1c45-a5cc-bd76e20a57ab'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/d6d18fe2-ab44-1c45-a5cc-bd76e20a57ab'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:45.277
+!MESSAGE SVN: '0x0040000c: Override and Commit' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2013-01-25 10:01:45.277
+!MESSAGE Some of selected resources were not committed.
+!STACK 0
+org.eclipse.team.svn.core.connector.SVNConnectorException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/7c10f659-8ed9-1540-a3b9-542a78914128'
+
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.handleClientException(JavaHLConnector.java:2393)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:521)
+	at org.eclipse.team.svn.core.extension.factory.ThreadNameModifier.commit(ThreadNameModifier.java:108)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation$2.run(CommitOperation.java:124)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:154)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:149)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.performCommit(CommitOperation.java:122)
+	at org.eclipse.team.svn.core.operation.local.CommitOperation.runImpl(CommitOperation.java:103)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:95)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:81)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:39)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:81)
+	at org.eclipse.team.svn.ui.synchronize.action.AbstractSynchronizeLogicalModelAction$2$1.run(AbstractSynchronizeLogicalModelAction.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.apache.subversion.javahl.ClientException: RA layer request failed
+svn: Commit failed (details follow):
+svn: Server sent unexpected return value (405 Method Not Allowed) in response to MKACTIVITY request for '/svn/!svn/act/7c10f659-8ed9-1540-a3b9-542a78914128'
+
+	at org.apache.subversion.javahl.SVNClient.commit(Native Method)
+	at org.polarion.team.svn.connector.javahl.JavaHLConnector.commit(JavaHLConnector.java:513)
+	... 17 more
+!SESSION 2013-03-14 09:26:23.118 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.google.gdt.eclipse.core 4 0 2013-03-14 09:26:40.871
+!MESSAGE The site.xml file downloaded from the update site does not contain any <feature> elements with an id of 'com.google.appengine.eclipse.sdkbundle.e42.feature'. Unable to determine if there are updates available.
+
+!ENTRY com.google.gdt.eclipse.suite.ext 4 2 2013-03-14 09:26:40.980
+!MESSAGE Problems occurred when invoking code from plug-in: "com.google.gdt.eclipse.suite.ext".
+!STACK 0
+java.lang.NoClassDefFoundError: com/google/gdt/eclipse/suite/ext/update/ui/UpdateNotificationToastPopup$NotificationControlSelectedHandler
+	at com.google.gdt.eclipse.suite.ext.update.CompositeArtifactsDowloadJobChangeListener.notifyOfAvailableUpdates(CompositeArtifactsDowloadJobChangeListener.java:263)
+	at com.google.gdt.eclipse.suite.ext.update.CompositeArtifactsDowloadJobChangeListener.done(CompositeArtifactsDowloadJobChangeListener.java:147)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:70)
+Caused by: java.lang.ClassNotFoundException: com.google.gdt.eclipse.suite.ext.update.ui.UpdateNotificationToastPopup$NotificationControlSelectedHandler
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 8 more
+!SESSION 2013-03-19 08:54:32.338 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\Userlib\Ent-Ver-1.9-01232013 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-03-19 09:29:45.754
+!MESSAGE No valid Android XML Editor Delegate found for file /MobileSlimAttendance/war/WEB-INF/web.xml [Res null, type null]
+
+!ENTRY org.eclipse.ui 4 4 2013-03-19 09:30:32.275
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.xml.ui.internal.handlers.CleanupdocumentHandler} vs {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.564
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_ServerConfigurationMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ServerConfigurationMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.565
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ServerConfigurationMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.608
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmailTemplateMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmailTemplateMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.608
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmailTemplateMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.756
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.757
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.811
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_WeeklyEffortReportMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_WeeklyEffortReportMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.812
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_WeeklyEffortReportMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.919
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_ContractorCompanyMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ContractorCompanyMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.919
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ContractorCompanyMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.920
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_TemplateMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TemplateMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.920
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TemplateMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:54.921
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_UserMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_UserMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:54.921
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_UserMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.034
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/TweetMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/TweetMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.034
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/TweetMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.071
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.072
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.072
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_ConsolidatedTimesheetMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ConsolidatedTimesheetMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.073
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ConsolidatedTimesheetMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.073
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_DashboardDataMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_DashboardDataMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.073
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_DashboardDataMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.074
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.074
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimeSheetRuleMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.075
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.075
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.348
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.348
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.349
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_LocationMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_LocationMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.349
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_LocationMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.350
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.350
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.350
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.351
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_TimesheetMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.438
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.439
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_AssignmentMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.439
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmployeeMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmployeeMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.439
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_EmployeeMeta.java' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-03-19 16:32:55.440
+!MESSAGE File not found: '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9896)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:9868)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:8434)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:326)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:173)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.accept(CompilationUnitResolver.java:169)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:163)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:197)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findImport(CompilationUnitScope.java:438)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.findSingleImport(CompilationUnitScope.java:492)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInImports(CompilationUnitScope.java:373)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:417)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1193)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1181)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:807)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:243)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:199)
+	at com.google.appengine.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-19 16:32:55.440
+!MESSAGE Resource '/MobileSlimAttendance/src/com/adviteya/meta/MA_ShiftMeta.java' does not exist.
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2013-03-19 16:33:18.809
+!MESSAGE Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.6.0_27\bin\javaw.exe" (in directory "E:\Userlib\Ent-Ver-1.9-01232013\MobileSlimAttendance"): CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at com.google.gdt.eclipse.core.ProcessUtilities.launchProcessAndActivateOnError(ProcessUtilities.java:213)
+	at com.google.appengine.eclipse.core.orm.enhancement.EnhancerJob.runInWorkspace(EnhancerJob.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: CreateProcess error=87, The parameter is incorrect
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:81)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:30)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 4 more

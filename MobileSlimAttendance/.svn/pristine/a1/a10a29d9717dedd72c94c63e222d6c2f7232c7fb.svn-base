@@ -1,0 +1,563 @@
+body {
+	margin-top: 5px;
+	padding: 0;
+	color: black;
+	height:100%;
+	width:99%;
+	
+	
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #006EA6;
+}
+          	
+h1 {
+	letter-spacing: -1px;
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 20px;
+}
+
+a:link {
+	color: #0094E0;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #0094E0;
+}
+
+a:visited {
+	color: #0094E0;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 15px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 15px;
+}
+
+/* Form */
+
+form {
+	margin: 0;
+	padding: 0;
+	height: 175px;
+	width: 100%;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 1px;
+	border-color: rgb(85,0,0);
+	display: block;
+	height: 450px;
+	border-style: solid;
+	width: 550px;
+	position: relative;
+}
+
+legend {
+	display: block;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 320px;
+	height: 20px;
+	
+}
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	margin: 0px 0px 0px 0px;
+	padding-top: 10px;
+	background: url(images/header.gif);
+	height: 90px;
+	width:90%;
+	margin-left:5%;
+}
+
+#logo {
+	float: left;
+	height: 90%;
+	position: relative;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 5px 0 0 5px;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+#logo h1 sup {
+	vertical-align: text-top;
+	font-size: 24px;
+}
+
+#logo h1 a {
+	color: #ffffff;
+}
+
+#logo h2 {
+	margin: 0;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #e1f1ff;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	padding-top: 2px;
+	padding-right:20px;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-left: 4px;
+	background: url(images/menu.gif) repeat-x left top;
+	padding: 1px 8px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: url(images/menu_hover.gif) repeat-x left top;
+}
+
+#menu .active a {
+	background: url(images/menu_active.gif) repeat-x left top;
+}
+
+/* Page */
+
+#page {
+	width: 90%;
+    margin-left:5%;
+	margin-bottom:0%;
+	margin-right:5%;
+	margin-top:0%;
+	height:270px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 99%;
+	padding: 10px 0 0 10px;
+	margin-left:0%;
+	background-color:#E8E8E8;
+	height:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	
+}
+/* Boxes */
+
+.box {
+	border:solid 1px #94b4d1;
+	background:#dbedfe;
+	color:#222222;
+	padding:10px 10px 0px 10px;
+}
+.zip {
+	width:150;
+	
+ 	
+}
+
+
+/* Footer */
+
+#footer {
+	width: 90%;
+	background: url(images/content_back_bottom.jpg) no-repeat left top;
+	margin-left:5%;
+	margin-bottom:0%;
+	margin-right:5%;
+	margin-top:0%;
+	height: 70px;
+	padding: 10px 0 0 0px;
+	color: #353535;
+	vertical-align: bottom;
+	text-align: center;
+	
+
+}
+
+#footer-menu {
+	padding-left: 30px;
+}
+
+#notice {
+	clear: both;
+	font-size: 11px;
+	color: #6D6D6D;
+	padding-left: 45px;
+}
+
+#notice a {
+	color: #0094E0;
+}
+
+#footer-menu {
+	float: left;
+	color: #353535;
+	text-transform: lowercase;
+}
+
+#footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#footer-menu li {
+	display: inline;
+}
+
+#footer-menu a {
+	display: block;
+	float: left;
+	padding: 1px 10px 1px 10px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #7d7d7d;
+}
+
+#footer-menu a:hover {
+	text-decoration: underline;
+}
+
+#footer-menu .active a {
+	padding-left: 0;
+	color: #474747;
+}
+.zip {
+width:150px;
+border-style:solid;
+border-width:1px;	
+	
+}
+.command {
+width:150px;	
+	
+}
+.address {
+cols:49;
+rows:5;
+	
+}
+.lebel {
+vertical-align:top;
+text-align:left;	
+	
+}
+.choice {
+width:15px;
+border-style:none;
+vertical-align:bottom;	
+}
+.fieldset1 {
+width:575px;
+height:250px;
+position:relative;	
+}
+.fieldset2 {
+width:575px;
+height:190px;
+position:relative;	
+}
+.fieldset3 {
+width:575px;
+height:470px;
+position:relative;	
+}
+.th {
+background-color:#0094E0;
+color:white;
+text-align:left;
+background-position: right;
+background-repeat:no-repeat;
+background-image:url(images/buttonDown_On.png)
+
+}
+.tr_odd {
+	background-color:white;
+
+}
+.tr_even {
+	background-color:#A6CAF0
+
+}
+.hour {
+width:50px;	
+}
+.shift_fieldset {
+	height:220px;
+	width: 575px;
+	
+}
+.adminuser_fieldset {
+	height:580px;
+	width: 575px;
+	
+}
+.dateField {
+width:100px;	
+}
+.empId {
+width:200px;	
+}
+.name {
+	width:200px;
+}
+.employeeType{
+width:200px;	
+}
+.shiftSelect{
+width:200px;	
+}
+.workingDaySelect{
+width:200px;	
+}
+.weeklyOff{
+width:150px;	
+}
+.employee_fieldset {
+width:575px;
+height:480px;	
+}
+.assignment_fieldset {
+	
+width:870px;;
+height:350px;;	
+}
+.chk {
+width:15px;
+border-style:none;	
+}
+.locationSelect{
+width:135px;	
+}
+.shiftSelect1{
+width:128px;	
+}
+.reports_fieldset {
+	width:870px;
+	height:130px;
+	border-style: solid;
+	border-color: black;
+}
+.searchDateField {
+	width:70px;
+}
+.searchButtons {
+width:90px;	
+}
+.yearSelect {
+width:100px;	
+}
+.monthSelect {
+width:100px;	
+}
+.timesheet_table {
+	border-style:solid;
+	border-width:thin;
+	border-color:black;
+
+}
+.recharge_fieldset {
+width:870px;
+height:250px;	
+}
+.username {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 160px;
+	height: 20px;
+	
+}
+.password {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 160px;
+	height: 20px;
+	
+}
+.button {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 100px;
+	height: 20px;
+	
+}
+.nameField {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 160px;
+	height: 20px;
+	
+}
+.cityField {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 160px;
+	height: 20px;
+	
+}
+.countrySelect {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 200px;
+	height: 20px;
+	
+}
+.stateSelect {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 200px;
+	height: 20px;
+	
+}
+.salutationSelect {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 60px;
+	height: 20px;
+	
+}
+.userProfileSelect {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 160px;
+	height: 20px;
+	
+}
+.natureOfBusinessSelect {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 200px;
+	height: 20px;
+	
+}
+
+.location_fields {
+width:575px;
+height:300px;
+position:relative;	
+}

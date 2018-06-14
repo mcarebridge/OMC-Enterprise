@@ -1,0 +1,5 @@
+Id,configKey,configValue,description,createdBy,updatedBy
+1000,ENV,OMCDEV,Development env,ADMIN,ADMIN
+1010,OMC_EMAIL_SENDER,hrmastercontrol@gmail.com,-,ADMIN,ADMIN
+1015,OMC_EMAIL_SENDER_NAME,OneMasterControl Admin,-,ADMIN,ADMIN
+1020,HELPDESK,helpdesk@onemastercontrol.com,-,ADMIN,ADMIN

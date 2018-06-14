@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=CREATE_CONSOLIDATE_TIMESHEET</url>
+		<description>Generate Consolidated Timesheet for IN entries
+		</description>
+		<schedule>every 240 minutes from 00:00 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=INTIME_DASHBOARD</url>
+		<description>Generate IN Time Dashboard</description>
+		<schedule>every 300 minutes from 00:15 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=UPDATE_CONSOLIDATE_TIMESHEET</url>
+		<description>Update Consolidated Timesheet for OUT entries
+		</description>
+		<schedule>every 240 minutes from 00:30 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=OUTTIME_DASHBOARD</url>
+		<description>Generate OUT Time Dashboard</description>
+		<schedule>every 300 minutes from 00:45 to 23:00</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=UPDATE_ASSIGNMENT</url>
+		<description>Update Assignment Status</description>
+		<schedule>every 180 minutes from 00:00 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=ORPHAN_TIMESHEET</url>
+		<description>Update Not Closed Timesheet </description>
+		<schedule>every 180 minutes from 00:00 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=UPDATE_PREV_TIMESHEET</url>
+		<description>Update Previous Day Timesheet</description>
+		<schedule>every 315 minutes from 00:30 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=STORE_WEEKLY_REPORT</url>
+		<description>Store weekly Timesheets in Entity</description>
+		<schedule>every sunday 14:00</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=STORE_PAYROLL_REPORT</url>
+		<description>Store Payroll in Entity</description>
+		<schedule>every day 02:00</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=EXECUTE_SHIFT_START_ALERT</url>
+		<description>Execute Shift stats alert</description>
+		<schedule>every 30 minutes from 00:30 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+	<cron>
+		<url>/humancapital/cronJobScheduler?action=EXECUTE_SHIFT_END_ALERT</url>
+		<description>Execute Shift stats alert</description>
+		<schedule>every 30 minutes from 00:30 to 23:59</schedule>
+		<timezone>Asia/Calcutta</timezone>
+	</cron>
+</cronentries>

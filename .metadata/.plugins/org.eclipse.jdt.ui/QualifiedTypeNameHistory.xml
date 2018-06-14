@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.adviteya.service.ContractBusinessService"/>
+<fullyQualifiedTypeName name="com.adviteya.persistence.AbstractEntityDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.adviteya.controller.humancapital.BaseController"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_Package"/>
+<fullyQualifiedTypeName name="com.google.appengine.api.datastore.Text"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.adviteya.model.AbstractEntity"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_Contract"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_Invoice"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_AdjustmentType"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_Company"/>
+<fullyQualifiedTypeName name="com.adviteya.model.MA_Location"/>
+</qualifiedTypeNameHistroy>

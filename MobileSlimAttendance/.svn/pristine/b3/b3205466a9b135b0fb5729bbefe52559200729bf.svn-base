@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta name='Keywords' content=''>
+<meta name='Description' content=''>
+<title>Welcome to OneMasterControl</title>
+
+<style type='text/css'>
+.mailBody {
+	float: left;
+	font-family: 'Arial', sans-serif;
+	padding: 10px 10px 10px 10px;
+}
+</style>
+</head>
+<body>
+	<div style="align:'center'">
+		<table
+			style="width: 60%; align ='center'; border: 1px solid #E1E0E6; padding: 0px 0px 0px 0px">
+			<tr>
+				<td><img width="250" height="32"
+					style="float: right; padding: 0px 0px 0px 0px"
+					src="http://$server$/humancapital/images/omcLogo.png"
+					alt="OneMasterControl" /></td>
+			</tr>
+			<tr>
+				<td>
+					<div class='mailBody'>Dear $accountName$:</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class='mailBody'>
+						Welcome to OneMasterControl.Please complete the last step of the account creation. 
+							<p>
+							Please click on the following link to activate your account. 
+						<a
+							href='https://$server$/humancapital/createCompany?actionParam=confirmUser&companyId=$companyId$'>Click
+							on this link</a> <br>In case you have any technical issues
+							please email at sales@onemastercontrol.com <a href=mailto:sales@onemastercontrol.com>Web Sales Team</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><div class='mailBody'><p>Thanks you,<p>Web Sales Team<p>
+						OneMasterControl</div></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+

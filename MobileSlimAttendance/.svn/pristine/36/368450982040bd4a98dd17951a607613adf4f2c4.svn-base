@@ -1,0 +1,210 @@
+#------------------------------------------------------------------------------
+#					Page Titles
+#------------------------------------------------------------------------------
+title.welcome=Welcome to OneMasterControl
+title.newLogin=Create Admin User
+title.home=Home Page
+title.addLocation=Add a Location
+title.editLocation=Edit a Location
+title.addShift=Add a Shift
+title.addContractor=Create Contractor Company
+title.editShift=Edit a Shift
+title.configureRule=Configure Rules
+title.addEmployee=Create Employee
+title.listAndPrint=Print Employee Labels
+title.addAssignment=Create Employee Assignment
+title.addChargeYourAccount=Account details
+title.detailedPeriodicReport=Consolidated Timesheet Report
+title.monthlyReport=Monthly Time Card Grid
+title.addHolidaysForLocation=Add Holidays for a Location
+title.detailedPayRollReport=Payroll report
+title.currentDayTimesheetReport=Current Day Timesheet Report
+title.confirmUser= Confirm User Account
+title.accountCreationSuccess=Account Created Successfully.
+title.reportsHome=Reports Home
+title.employeeHome =Employee Home
+title.viewEmployees=View Employees
+title.departmentDashboard=Department Dashboard
+title.forgotPassword=Forgot Password 
+title.helpDesk=Help Desk
+title.weekTimeReport=Weekly Time Report
+title.MobileAuditTrail=System access & Data Transmission Report
+title.monthPayrollReport=Monthly Payroll Report
+title.configurationIndex=Configuration 
+title.createAlert=Create Alert
+title.viewAlert=View Alerts
+
+system.error=We are facing an unexpected error. For security reason you session has been invalidated.<br> You may report this error to helpdesk@onemastercontrol.com.
+
+account.creation.success=Your company account has been created successfully.To activate your account click on the link sent to your registered email address and complete the account activation process.
+account.forgotPassword.send=Your Password has been sent to your email address.Please,Check your email id and sign in.
+account.HelpDeskMail.send=Your request has been sent to helpdesk and to your alternate email address.<br>We shall contact you soon on your given Contact telephone No.    
+
+#------------------------------------------------------------------------------
+#					Page Headers
+#------------------------------------------------------------------------------
+page.Header=OneMasterControl
+page.dashboard=Human Capital Dashboard
+page.newLogin=Create Company and Operations controller
+page.login=Enter your login credentials
+page.addLocation=Create a new Location
+page.addShift=Add a Shift
+page.editShift=Edit a Shift
+page.addContractor=Add a Contractor
+page.editLocation=Edit a location
+page.addEmployee=Create Employee
+page.addAssignment= Create / Update employee Assignment
+page.monthlyReport=Monthly Time Card Grid
+page.detailedPeriodicReport=Consolidated Timesheet Report
+page.configureRule=Configure Timesheet Rules
+page.addHolidaysForLocation=Add Holidays for a Location
+page.detailedPayRollReport=Payroll Report
+page.addContractor=Add a Contractor
+page.currentDayTimesheetReport=Current Day Timesheet Report
+page.departmentDashboard=Department Dashboard
+page.forgotPassword=Forgot Password
+page.helpDesk=Contact Help desk
+page.monthPayrollReport=Monthly Payroll Report
+page.configurationIndex=Configuration
+page.createAlert=Create Alert
+page.viewAlert=View Alert
+
+page.error=Error Page
+page.reportsHome=Reports Home
+page.employeeHome =Employee Home
+page.viewEmployee=Employees
+page.createDepartment=Create Department
+page.report.subHeader1=Online reports
+page.report.subHeader2=Download reports
+page.report.subHeader3=Admin report
+page.weekTimeReport=Weekly Time Report
+page.MobileAuditTrail=System access & Data Transmission Report
+page.ConsolidatedNote1=Choose a Date from Calendar to get all employee for the day.
+page.ConsolidatedNote2=Choose Month and Employee Id to get all data for that employee for that month.  
+
+#------------------------------------------------------------------------------
+
+#					Validation Statement
+#------------------------------------------------------------------------------
+validator.required={0} is required.
+validator.byteType={0} must be a byte.
+validator.shortType={0} must be a short.
+validator.integerType={0} must be an integer.
+validator.longType={0} must be a long.
+validator.floatType={0} must be a float.
+validator.doubleType={0} must be a double.
+validator.numberType={0} is not a number({1}).
+validator.dateType={0} is not a date({1}).
+validator.minlength={0} can not be less than {1} characters.
+validator.maxlength={0} can not be greater than {1} characters.
+validator.range={0} is not in the {1} to {2} range.
+validator.regexp={0} is invalid.
+label.firstName=First Name
+label.lastName=Last Name
+label.gender=Gender
+label.phone=Telephone
+label.cell=Cell Phone
+label.userName=Email Address
+label.companyName=Company Name
+label.line1=Address
+label.city=City
+label.country=Country
+label.state=State
+label.pinCode=Zip Code
+label.userProfile=Profile
+label.natureOfBusiness=Nature Of Business
+label.uniqueidFlag =Unique Employee Id
+label.locationName=Location Name
+label.active=Status
+lebel.shiftName=Shift Name
+label.start_hrs=Start Hours
+label.start_min=Start Minute
+label.end_hrs=End Hours
+label.end_min=End Minute
+label.shiftName=Shift Name
+label.operationFlag=Who is going to control this operation?
+label.emplyoeePopulation=Employee population
+label.startDate =Start Date
+label.companyEmpId=Employee Id
+label.employeeType=Employee Type
+label.location=Location
+label.shift=Shift
+label.minWorkingHrsPerDay=Min Daily Working Hrs
+label.numOfWorkingDays=No of Working Days
+label.dayOfWeeklyOff=Weekly Off
+label.isSuperwiser= Supervisor or not
+label.passKey= Passkey
+label.template= Nature Of Business
+label.passKeyRetyped=Confirm Passkey
+label.holidayDate=Date of Holiday
+label.locationSpecificHoliday=Holiday Description
+label.skill=Employee Skill
+label.imeiCode=IMEI Code
+label.contractorCompany=Contractor
+label.password1=Password
+label.password2=Confirm password
+label.departmentName=Department Name
+label.description Description
+label.designation=Designation
+invalid.credentials=Invalid Username or password.
+location.current.assignment=Location status can not be changed as there are current assignment at this location.
+
+#------------------------------------------------------------------------------
+#					Effort status
+#------------------------------------------------------------------------------
+
+min_daily_efforts=Minimum Daily Efforts
+max_daily_efforts=Maximum Daily Efforts
+late_mark_tolerance=Late Mark Tolerance
+early_left_tolerance=Early Left Tolerance
+min_half_day_efforts=Minimum Half Day Efforts
+min_half_day_contienous_hrs=Half Day Minimum Continuous Effort
+half_day_tolerance=Half Day Tolerance
+flexibel_time=Flexible Time
+min_over_time_efforts=Minimum Overtime Efforts
+over_time_tolerance=Over Time Tolerance
+weekly_off_over_time_efforts=Weekly off Overtime Efforts
+lunch_break=Lunch Break
+tea_break=Tea Break
+planned_assignment=Planned Assignment
+max_over_time_per_pay_period=Max Over Time Per Pay Period
+early_in_tolerance=Early In Tolerance
+late_out_tolerance=Late Out Tolerance
+daily_effort_tolerance=Daily Effort Tolerance
+billing_rule=Billing Rule
+department_rule=Department
+
+
+label.min_daily_efforts=Minimum Daily Efforts
+label.max_daily_efforts=Maximum Daily Efforts
+label.late_mark_tolerance=Late Mark Tolerance
+label.early_left_tolerance=Early Left Tolerance
+label.min_half_day_efforts=Minimum Half Day Efforts
+label.min_half_day_contienous_hrs=Half Day Minimum Continuous Effort
+label.half_day_tolerance=Half Day Tolerance
+label.flexibel_time=Flexible Time
+label.min_over_time_efforts=Minimum Overtime Efforts
+label.over_time_tolerance=Over Time Tolerance
+label.weekly_off_over_time_efforts=Weekly off Overtime Efforts
+label.lunch_break=Lunch Break
+label.tea_break=Tea Break
+label.planned_assignment=Planned Assignment
+label.max_over_time_per_pay_period=Max Over Time Per Pay Period
+label.early_in_tolerance=Early In Tolerance
+label.late_out_tolerance=Late Out Tolerance
+label.daily_effort_tolerance=Daily Effort Tolerance
+label.billing_rule=Billing Rule
+contractor_uniqueid_rule=Contractor Unique Id Rule
+company_uniqueid_rule=Company Unique Id Rule 
+
+
+
+
+#------------------------------------------------------------------------------
+#					xxxxx
+#------------------------------------------------------------------------------
+
+create.contractor=Contractor Company is created successfully.
+create.alert=Alert is created successfully.
+select.alertType=Select Alert Type
+select.Location=Select Location

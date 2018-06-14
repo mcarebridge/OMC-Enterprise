@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/appengine-remote-api.jar"/>
+	<classpathentry kind="lib" path="lib/appengine-sdk-plugin.jar"/>
+	<classpathentry kind="lib" path="lib/appengine-testing.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-bean-collections-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-core-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-tests.jar"/>
+	<classpathentry kind="lib" path="lib/gson-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="lib/jxl.jar"/>
+	<classpathentry kind="lib" path="lib/ktrwjr.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/slim3-1.0.16.jar"/>
+	<classpathentry kind="lib" path="lib/slim3-gen-1.0.16.jar"/>
+	<classpathentry kind="lib" path="testlib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="testlib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="testlib/fluent-hc-4.2.2.jar"/>
+	<classpathentry kind="lib" path="testlib/httpclient-4.2.2.jar"/>
+	<classpathentry kind="lib" path="testlib/httpclient-cache-4.2.2.jar"/>
+	<classpathentry kind="lib" path="testlib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="testlib/httpmime-4.2.2.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/v2"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,232 @@
+Id,countryName,countryCode,telephoneCode
+1000,Argentina,AR/ARG,54
+1010,Bahrain,BH/BHR,973
+1020,Brazil,BR/BRA,55
+1030,Canada,CA/CAN,1
+1040,China,CN/CHN,86
+1050,France,FR/FRA,33
+1060,Germany,DE/DEU,49
+1070,Hong Kong,HK/HKG,852
+1080,India,IN/IND,91
+1090,Indonesia,ID/IDN,62
+1100,Israel,IL/ISR,972
+1110,Italy,IT/ITA,39
+1120,Malaysia,MY/MYS,60
+1130,Netherlands,NL/NLD,31
+1140,Saudi Arabia,SA/SAU,966
+1150,Singapore,SG/SGP,65
+1160,South Africa,ZA/ZAF,27
+1170,South Korea,KR/KOR,82
+1180,United ArabEmirates,AE/ARE,971
+1190,United Kingdom,GB/GBR,44
+1200,United States,US/USA,1
+1210,Vietnam,VN/VNM,84
+1215,---Other Countries---,NONE,
+1220,Afghanistan,AF/AFG,93
+1230,Albania,AL/ALB,355
+1240,Algeria,DZ/DZA,213
+1250,American Samoa,AS/ASM,1684
+1260,Andorra,AD/AND,376
+1270,Angola,AO/AGO,244
+1280,Anguilla,AI/AIA,1264
+1290,Antarctica,AQ/ATA,672
+1300,Antiguaand Barbuda,AG/ATG,1268
+1310,Armenia,AM/ARM,374
+1320,Aruba,AW/ABW,297
+1330,Australia,AU/AUS,61
+1340,Austria,AT/AUT,43
+1350,Azerbaijan,AZ/AZE,994
+1360,Bahamas,BS/BHS,1242
+1370,Bangladesh,BD/BGD,880
+1380,Barbados,BB/BRB,1246
+1390,Belarus,BY/BLR,375
+1400,Belgium,BE/BEL,32
+1410,Belize,BZ/BLZ,501
+1420,Benin,BJ/BEN,229
+1430,Bermuda,BM/BMU,1441
+1440,Bhutan,BT/BTN,975
+1450,Bolivia,BO/BOL,591
+1460,Bosnia and Herzegovina,BA/BIH,387
+1470,Botswana,BW/BWA,267
+1480,British Virgin Islands,VG/VGB,1284
+1490,Brunei,BN/BRN,673
+1500,Bulgaria,BG/BGR,359
+1510,Burkina Faso,BF/BFA,226
+1520,Burma(Myanmar),MM/MMR,95
+1530,Burundi,BI/BDI,257
+1540,Cambodia,KH/KHM,855
+1550,Cameroon,CM/CMR,237
+1560,Cape Verde,CV/CPV,238
+1570,Cayman Islands,KY/CYM,1345
+1580,Central African Republic,CF/CAF,236
+1590,Chad,TD/TCD,235
+1600,Chile,CL/CHL,56
+1610,Christmas Island,CX/CXR,61
+1620,Cocos(Keeling)Islands,CC/CCK,61
+1630,Colombia,CO/COL,57
+1640,Comoros,KM/COM,269
+1650,Cook Islands,CK/COK,682
+1660,Costa Rica,CR/CRC,506
+1670,Croatia,HR/HRV,385
+1680,Cuba,CU/CUB,53
+1690,Cyprus,CY/CYP,357
+1700,Czech Republic,CZ/CZE,420
+1710,Democratic Republic of the Congo,CD/COD,243
+1720,Denmark,DK/DNK,45
+1730,Djibouti,DJ/DJI,253
+1740,Dominica,DM/DMA,1767
+1750,Dominican Republic,DO/DOM,1809
+1760,Ecuador,EC/ECU,593
+1770,Egypt,EG/EGY,20
+1780,El Salvador,SV/SLV,503
+1790,Equatorial Guinea,GQ/GNQ,240
+1800,Eritrea,ER/ERI,291
+1810,Estonia,EE/EST,372
+1820,Ethiopia,ET/ETH,251
+1830,Falkland Islands,FK/FLK,500
+1840,Faroe Islands,FO/FRO,298
+1850,Fiji,FJ/FJI,679
+1860,Finland,FI/FIN,358
+1870,French Polynesia,PF/PYF,689
+1880,Gabon,GA/GAB,241
+1890,Gambia,GM/GMB,220
+1910,Georgia,GE/GEO,995
+1920,Ghana,GH/GHA,233
+1930,Gibraltar,GI/GIB,350
+1940,Greece,GR/GRC,30
+1950,Greenland,GL/GRL,299
+1960,Grenada,GD/GRD,1473
+1970,Guam,GU/GUM,1671
+1980,Guatemala,GT/GTM,502
+1990,Guinea,GN/GIN,224
+2000,Guinea-Bissau,GW/GNB,245
+2010,Guyana,GY/GUY,592
+2020,Haiti,HT/HTI,509
+2030,Holy See(Vatican City),VA/VAT,39
+2040,Honduras,HN/HND,504
+2050,Hungary,HU/HUN,36
+2060,Iceland,IS/IS,354
+2070,Iran,IR/IRN,98
+2080,Iraq,IQ/IRQ,964
+2090,Ireland,IE/IRL,353
+2100,Isleof Man,IM/IMN,44
+2110,Ivory Coast,CI/CIV,225
+2120,Jamaica,JM/JAM,1876
+2130,Japan,JP/JPN,81
+2140,Jordan,JO/JOR,962
+2150,Kazakhstan,KZ/KAZ,7
+2160,Kenya,KE/KEN,254
+2170,Kiribati,KI/KIR,686
+2190,Kuwait,KW/KWT,965
+2200,Kyrgyzstan,KG/KGZ,996
+2210,Laos,LA/LAO,856
+2220,Latvia,LV/LVA,371
+2230,Lebanon,LB/LBN,961
+2240,Lesotho,LS/LSO,266
+2250,Liberia,LR/LBR,231
+2260,Libya,LY/LBY,218
+2270,Liechtenstein,LI/LIE,423
+2280,Lithuania,LT/LTU,370
+2290,Luxembourg,LU/LUX,352
+2300,Macau,MO/MAC,853
+2310,Macedonia,MK/MKD,389
+2320,Madagascar,MG/MDG,261
+2330,Malawi,MW/MWI,265
+2340,Maldives,MV/MDV,960
+2350,Mali,ML/MLI,223
+2360,Malta,MT/MLT,356
+2370,Marshall Islands,MH/MHL,692
+2380,Mauritania,MR/MRT,222
+2390,Mauritius,MU/MUS,230
+2400,Mayotte,YT/MYT,262
+2410,Mexico,MX/MEX,52
+2420,Micronesia,FM/FSM,691
+2430,Moldova,MD/MDA,373
+2440,Monaco,MC/MCO,377
+2450,Mongolia,MN/MNG,976
+2460,Montenegro,ME/MNE,382
+2470,Montserrat,MS/MSR,1664
+2480,Morocco,MA/MAR,212
+2490,Mozambique,MZ/MOZ,258
+2500,Namibia,NA/NAM,264
+2510,Nauru,NR/NRU,674
+2520,Nepal,NP/NPL,977
+2530,Netherlands Antilles,AN/ANT,599
+2540,NewCaledonia,NC/NCL,687
+2550,NewZealand,NZ/NZL,64
+2560,Nicaragua,NI/NIC,505
+2570,Niger,NE/NER,227
+2580,Nigeria,NG/NGA,234
+2590,Niue,NU/NIU,683
+2600,NorfolkIsland,/NFK,672
+2610,NorthKorea,KP/PRK,850
+2620,NorthernMarianaIslands,MP/MNP,1670
+2630,Norway,NO/NOR,47
+2640,Oman,OM/OMN,968
+2650,Pakistan,PK/PAK,92
+2660,Palau,PW/PLW,680
+2670,Panama,PA/PAN,507
+2680,PapuaNewGuinea,PG/PNG,675
+2690,Paraguay,PY/PRY,595
+2700,Peru,PE/PER,51
+2710,Philippines,PH/PHL,63
+2720,PitcairnIslands,PN/PCN,870
+2730,Poland,PL/POL,48
+2740,Portugal,PT/PRT,351
+2750,PuertoRico,PR/PRI,1
+2760,Qatar,QA/QAT,974
+2770,RepublicoftheCongo,CG/COG,242
+2780,Romania,RO/ROU,40
+2790,Russia,RU/RUS,7
+2800,Rwanda,RW/RWA,250
+2810,SaintBarthelemy,BL/BLM,590
+2820,SaintHelena,SH/SHN,290
+2830,SaintKittsandNevis,KN/KNA,1869
+2840,SaintLucia,LC/LCA,1758
+2850,SaintMartin,MF/MAF,1599
+2860,SaintPierreandMiquelon,PM/SPM,508
+2870,SaintVincentandtheGrenadines,VC/VCT,1784
+2880,Samoa,WS/WSM,685
+2890,SanMarino,SM/SMR,378
+2900,SaoTomeandPrincipe,ST/STP,239
+2910,Senegal,SN/SEN,221
+2920,Serbia,RS/SRB,381
+2930,Seychelles,SC/SYC,248
+2940,SierraLeone,SL/SLE,232
+2950,Slovakia,SK/SVK,421
+2960,Slovenia,SI/SVN,386
+2970,SolomonIslands,SB/SLB,677
+2980,Somalia,SO/SOM,252
+2990,Spain,ES/ESP,34
+3000,SriLanka,LK/LKA,94
+3010,Sudan,SD/SDN,249
+3020,Suriname,SR/SUR,597
+3030,Swaziland,SZ/SWZ,268
+3040,Sweden,SE/SWE,46
+3050,Switzerland,CH/CHE,41
+3060,Syria,SY/SYR,963
+3070,Taiwan,TW/TWN,886
+3080,Tajikistan,TJ/TJK,992
+3090,Tanzania,TZ/TZA,255
+3100,Thailand,TH/THA,66
+3110,Timor-Leste,TL/TLS,670
+3120,Togo,TG/TGO,228
+3130,Tokelau,TK/TKL,690
+3140,Tonga,TO/TON,676
+3150,TrinidadandTobago,TT/TTO,1868
+3160,Tunisia,TN/TUN,216
+3170,Turkey,TR/TUR,90
+3180,Turkmenistan,TM/TKM,993
+3190,TurksandCaicosIslands,TC/TCA,1649
+3200,Tuvalu,TV/TUV,688
+3210,Uganda,UG/UGA,256
+3220,Ukraine,UA/UKR,380
+3230,Uruguay,UY/URY,598
+3240,USVirginIslands,VI/VIR,1340
+3250,Uzbekistan,UZ/UZB,998
+3260,Vanuatu,VU/VUT,678
+3270,Venezuela,VE/VEN,58
+3280,WallisandFutuna,WF/WLF,681
+3290,Yemen,YE/YEM,967
+3300,Zambia,ZM/ZMB,260
+3310,Zimbabwe,ZW/ZWE,263

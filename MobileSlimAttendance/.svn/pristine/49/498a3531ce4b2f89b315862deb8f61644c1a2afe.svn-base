@@ -1,0 +1,12 @@
+Id,companyRefId,locationRefId,departmentName,active
+5000,8001,13001,Press Shop,1
+5001,8001,13001,Assembly Shop,1
+5002,8001,13001,Stores,1
+5003,8001,13001,HR,1
+5004,8001,13001,Maintenance,1
+5005,8001,13001,Sharing,1
+5006,8001,13001,Firewall,1
+5007,8001,13001,Purchase,1
+5008,8001,13001,Raw Material,1
+5009,8001,13001,Tool Room,1
+5010,8001,13001,QA,1
